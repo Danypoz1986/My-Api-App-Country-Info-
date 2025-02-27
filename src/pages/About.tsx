@@ -5,16 +5,21 @@ import {
     IonTitle, 
     IonToolbar, 
     IonButtons, 
-    IonBackButton 
+    IonButton
   } from '@ionic/react';
-  
+
+  import { useHistory } from 'react-router-dom';
+
   const About: React.FC = () => {
+
+    const history = useHistory();
+
     return (
       <IonPage>
         <IonHeader>
           <IonToolbar style={{ marginTop: '40px' }}>
-            <IonButtons slot="start">
-              <IonBackButton defaultHref='/countries'></IonBackButton>
+            <IonButtons slot="start"> 
+              <IonButton onClick={() => history.goBack()}>🔙 Back</IonButton>
             </IonButtons> 
             <IonTitle>About This App</IonTitle>
           </IonToolbar>

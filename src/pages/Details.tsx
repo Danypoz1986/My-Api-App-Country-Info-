@@ -18,7 +18,8 @@ import {
     IonFooter,
     IonItem,
     IonIcon,
-    IonLabel
+    IonLabel,
+    IonMenuButton
   } from '@ionic/react';
   
   import { 
@@ -60,7 +61,7 @@ import {
         <IonHeader>
           <IonToolbar>
             <IonButtons slot="start">
-              <IonBackButton defaultHref='/countries'></IonBackButton>
+              <IonMenuButton />
             </IonButtons>
             <IonTitle>Country Info</IonTitle>
           </IonToolbar>
