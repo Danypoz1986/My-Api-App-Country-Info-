@@ -12,11 +12,11 @@ import {
     return (
       <IonPage>
         <IonHeader>
-          <IonToolbar>
+          <IonToolbar style={{ marginTop: '40px' }}>
             <IonButtons slot="start">
               <IonBackButton defaultHref='/countries'></IonBackButton>
             </IonButtons> 
-            <IonTitle style={{ marginTop: '50px' }}>About This App</IonTitle>
+            <IonTitle>About This App</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent className="ion-padding">
