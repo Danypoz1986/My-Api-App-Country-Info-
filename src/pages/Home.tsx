@@ -35,7 +35,7 @@ const Home: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader>
+      <IonHeader style={{ paddingTop:'30px'}}>
         <IonToolbar color={'primary'}>
           <IonTitle>My Api App (Country Info)</IonTitle>
         </IonToolbar>
