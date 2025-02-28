@@ -120,6 +120,7 @@ The app is deployed on **Netlify** and can be accessed at:
 - **REST Countries API** – For providing country data.
 - **Ionic Framework** – For UI components.
 - **Simon Grimm's YouTube Tutorial** – Guide for learning Ionic React.
+- **ChatGPT AI Assistance** – Helped with coding guidance, debugging, and structuring the project.
 
 ## Author
 Developed by **Daniel Pozzoli** 🚀
