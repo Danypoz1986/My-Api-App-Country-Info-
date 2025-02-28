@@ -1,4 +1,4 @@
-# Country Info App 🌍
+# My Api App (Country Info App) 🌍
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
