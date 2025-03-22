@@ -91,7 +91,7 @@ import {
   
               <IonItem lines="none">
                 <IonIcon icon={business} slot='start' />
-                <IonLabel>{data?.capital}</IonLabel>
+                <IonLabel>{data?.capital ? Object.values(data.capital).join(', ') : 'N/A'}</IonLabel>
               </IonItem>
   
               <IonItem lines="none">
